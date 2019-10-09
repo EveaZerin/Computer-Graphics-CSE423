@@ -42,8 +42,6 @@ public class Points implements GLEventListener {
 
 		// gl.glVertex3f(10.0f, 10.0f, 0);
 
-		//String filename = "C:\\Users\\evea_\\Desktop\\Eclipse Codings\\CSE423Lab\\src\\input.txt";
-
 		List<String> st;
         try {
             st = Files.readAllLines(Path.of("E:\\Eclipse Codings\\CSE423Lab\\src\\input.txt"));
@@ -86,7 +84,7 @@ public class Points implements GLEventListener {
 		gl.glVertex3f(10.0f, 10.0f, 0);
 		gl.glEnd();
 		
-//		gl.glBegin(GL2.GL_TRIANGLES);  //eta use korle solid triangle hoy and 3ta points dilei chole :D
+//		gl.glBegin(GL2.GL_TRIANGLES);  //you get a solid triangle with only 3ta points :D
 		
 		
 		//Quadruple or Quadrilateral
